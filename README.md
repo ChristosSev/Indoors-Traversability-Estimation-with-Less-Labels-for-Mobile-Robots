@@ -16,11 +16,10 @@ For fine-tuning on your dataset using e.g. the fine tuned ViT:
 
 ## Using Ensemble GAN as described by Hirose et al. [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8594031)
 
-#### For training one a large dataset
-1.  Arrange your folder structure as /../../data/class/
+#### For training on a large dataset
+1. Arrange your folder structure as /../../data/class/
 2. Set the dataroot path '/../../data/' 
 3. Run `python3 GAN_ensemble_train.py`
-
 
 
 The model saves thre .pth files each corresponding to the models of the ensemble
