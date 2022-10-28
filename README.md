@@ -1,4 +1,4 @@
-# Indoors-Traversability-Estimation-with-Less-Labels for Mobile ROb
+# Indoors-Traversability-Estimation-with-Less-Labels for Mobile Robots
 
 For fine-tuning on your dataset using e.g. the fine tuned ViT, specify the train and test dataset paths.
 
