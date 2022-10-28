@@ -12,12 +12,14 @@ For fine-tuning on your dataset using e.g. the fine tuned ViT:
 3. Run `python3 VIT_fine_tuned.py`
 
 
-## Training the Ensemble GAN as described by Hirose et al. [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8594031)
+## Using Ensemble GAN as described by Hirose et al. [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8594031)
 
+### For training
 1.  Arrange your folder structure as /../../data/class/
 2. Set the dataroot path '/../../data/' 
 3. Run `python3 GAN_ensemble_train.py`
 
+#### For testing
 
 ### HERACLEiA dataset
 
