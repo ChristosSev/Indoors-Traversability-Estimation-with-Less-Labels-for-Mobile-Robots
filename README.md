@@ -4,7 +4,10 @@
 
 `pip install -r requirements.txt`
 
-For fine-tuning on your dataset using e.g. the fine tuned ViT, specify the train and test dataset paths.
+
+## Fine-tuning on your dataset 
+For fine-tuning on your dataset using e.g. the fine tuned ViT, specify the train and test dataset paths 
+as '/home/../..//set'
 
 Then simply run `python3 VIT_fine_tuned.py`
 
