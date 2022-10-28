@@ -1,11 +1,12 @@
 # Indoors-Traversability-Estimation-with-Less-Labels for Mobile Robots
 
 
+1. Open a terminal window
+2. Clone the repo
+
 ## Install the requirements on your machine 
 
 `pip install -r requirements.txt`
-
-
 
 ## Fine-tuning on your dataset 
 
