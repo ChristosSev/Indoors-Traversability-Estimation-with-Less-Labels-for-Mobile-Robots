@@ -45,6 +45,28 @@ scans.sort()
 images =  glob(path_img + '*jpg')
 images_list = []
 
+
+
+# laser part 
+#lasers = glob(path_to_laser + '*pkl')
+# lasers.sort()
+# 
+# for l in lasers:
+#     #print(l)
+#     file_to_read = open(l, "rb")
+#     loaded_dictionary_lasers = pickle.load(file_to_read)
+#     print(loaded_dictionary_lasers)
+#     #print(loaded_dictionary_lasers.keys())
+# 
+#     ranges = loaded_dictionary_lasers["ranges"]
+#     ranges_reshaped = np.array(ranges).reshape(1, 1081)
+# 
+#     ranges_200_400 = ranges_reshaped[0][200:400]
+# 
+#     if np.any(ranges_200_400 <= 1.2):
+#         print("")
+
+
 for i in images:
 
     output_filename_image = os.path.basename(i).split('.')[0]
